@@ -1,0 +1,168 @@
+# Trime style settings
+# encoding: utf-8
+
+__include: Q_26键无数字.trime:/ # 希望显示助记的主题名
+__patch:
+  name: Q_26键无数字_助记 # 现阶段同文以此项判断主题名
+
+# 添加跳转助记键盘的预设键、返回键，返回键可选添加。不使用预设键，切换为此主题可直接使用助记功能。（也可使用切换指定主题的方式）
+  # preset_keys/+: 
+    # Keyboards_mrzj: {label: 助记, functional: false, send: Eisu_toggle, select: moran}
+    # Keyboards_default: {label: 返回, send: Eisu_toggle, select: '.default'}
+
+# 助记布局
+preset_keyboards:
+  default: # 主布局id或当前方案id，自行更改
+    __include: Q_26键无数字.trime:/preset_keyboards/default
+    __patch:
+# 键盘第1个键从0开始，自行更改
+
+# Q：
+      # 'keys/@0/key_back_color':  #图片路径
+      # 'keys/@0/label': ' ' #字符显示
+      'keys/@0/label_symbol': 'iu' #上符显示
+      'keys/@0/hint': 'xo' #下符显示
+# W：
+      # 'keys/@1/key_back_color': 
+      # 'keys/@1/label': ' '
+      'keys/@1/label_symbol': 'ia  ua'
+      'keys/@1/hint': ' '
+# E：
+      # 'keys/@2/key_back_color': 
+      # 'keys/@2/label': ' '
+      'keys/@2/label_symbol': ' '
+      'keys/@2/hint': ' '
+# R：
+      # 'keys/@3/key_back_color': 
+      # 'keys/@3/label': ' '
+      'keys/@3/label_symbol': 'uan'
+      'keys/@3/hint': ' '
+# T：
+      # 'keys/@4/key_back_color': 
+      # 'keys/@4/label': ' '
+      'keys/@4/label_symbol': '(u/v)e'
+      'keys/@4/hint': ' '
+# Y：
+      # 'keys/@5/key_back_color': 
+      # 'keys/@5/label': ' '
+      'keys/@5/label_symbol': 'ing  uai'
+      'keys/@5/hint': ' '
+# U：
+      # 'keys/@6/key_back_color': 
+      # 'keys/@6/label': ' '
+      'keys/@6/label_symbol': 'sh'
+      'keys/@6/hint': ' '
+# I：
+      # 'keys/@7/key_back_color': 
+      # 'keys/@7/label': ' '
+      'keys/@7/label_symbol': 'ch'
+      'keys/@7/hint': ' '
+# O：
+      # 'keys/@8/key_back_color': 
+      # 'keys/@8/label': ' '
+      'keys/@8/label_symbol': 'uo'
+      'keys/@8/hint': ' '
+# P：
+      # 'keys/@9/key_back_color': 
+      # 'keys/@9/label': ' '
+      'keys/@9/label_symbol': 'un'
+      'keys/@9/hint': ' '
+# ============================
+
+# 左空键
+
+# A：
+      # 'keys/@11/key_back_color': 
+      # 'keys/@11/label': ' '
+      'keys/@11/label_symbol': ' '
+      'keys/@11/hint': ' '
+# S：
+      # 'keys/@12/key_back_color': 
+      # 'keys/@12/label': ' '
+      'keys/@12/label_symbol': '(i)ong'
+      'keys/@12/hint': ' '
+# D：
+      # 'keys/@13/key_back_color': 
+      # 'keys/@13/label': ' '
+      'keys/@13/label_symbol': '(i/u)ang'
+      'keys/@13/hint': ' '
+# F：
+      # 'keys/@14/key_back_color': 
+      # 'keys/@14/label': ' '
+      'keys/@14/label_symbol': 'en'
+      'keys/@14/hint': ' '
+# G：
+      # 'keys/@15/key_back_color': 
+      # 'keys/@15/label': ' '
+      'keys/@15/label_symbol': 'eng'
+      'keys/@15/hint': ' '
+# H：
+      # 'keys/@16/key_back_color': 
+      # 'keys/@16/label': ' '
+      'keys/@16/label_symbol': 'ang'
+      'keys/@16/hint': ' '
+# J：
+      # 'keys/@17/key_back_color': 
+      # 'keys/@17/label': ' '
+      'keys/@17/label_symbol': 'an'
+      'keys/@17/hint': ' '
+# K：
+      # 'keys/@18/key_back_color': 
+      # 'keys/@18/label': ' '
+      'keys/@18/label_symbol': 'ao'
+      'keys/@18/hint': ' '
+# L：
+      # 'keys/@19/key_back_color': 
+      # 'keys/@19/label': ' '
+      'keys/@19/label_symbol': 'ai'
+      'keys/@19/hint': ' '
+
+# 右空键
+# ============================
+
+# Shift
+
+# Z：
+      # 'keys/@22/key_back_color': 
+      # 'keys/@22/label': ' '
+      'keys/@22/label_symbol': 'ei'
+      'keys/@22/hint': ' '
+# X：
+      # 'keys/@23/key_back_color': 
+      # 'keys/@23/label': ' '
+      'keys/@23/label_symbol': 'ie'
+      'keys/@23/hint': 'qo'
+# C：
+      # 'keys/@24/key_back_color': 
+      # 'keys/@24/label': ' '
+      'keys/@24/label_symbol': 'iao'
+      'keys/@24/hint': ' '
+# V：
+      # 'keys/@25/key_back_color': 
+      # 'keys/@25/label': ' '
+      'keys/@25/label_symbol': 'zh ui v'
+      'keys/@25/hint': ' '
+# B：
+      # 'keys/@26/key_back_color': 
+      # 'keys/@26/label': ' '
+      'keys/@26/label_symbol': 'ou'
+      'keys/@26/hint': ' '
+# N：
+      # 'keys/@27/key_back_color': 
+      # 'keys/@27/label': ' '
+      'keys/@27/label_symbol': 'in'
+      'keys/@27/hint': ' '
+# M：
+      # 'keys/@28/key_back_color': 
+      # 'keys/@28/label': ' '
+      'keys/@28/label_symbol': 'ian'
+      'keys/@28/hint': ' '
+# ============================
+
+# 魔然字词：
+  # moran_fixed:
+    # __include: Q_26键无数字_助记.trime:/preset_keyboards/moran
+
+# 魔然整句：
+  # moran_sentence:
+    # __include: Q_26键无数字_助记.trime:/preset_keyboards/moran
