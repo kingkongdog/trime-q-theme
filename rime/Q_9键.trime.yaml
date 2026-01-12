@@ -469,7 +469,7 @@ preset_keyboards:
 # 第三行
       - {width: 17, click: '?', label: ' ？', swipe_up: '(){Left}', label_symbol: '（）', swipe_down: '<>{Left}', hint: '《》', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符3}
       - {click: '7', label: 7PQRS, key_text_size: 25, __include: Q_配色.yaml:/7, swipe_left: 'p', swipe_down: 'q', swipe_right: 'r', swipe_up: 's'}
-      - {click: '8', label: 8TUV, long_click: CommitComment, label_symbol: '\uE1BE', hint: '\uE1BE', key_text_size: 25, __include: Q_配色.yaml:/8, swipe_left: 't', swipe_down: 'u', swipe_right: 'v'}
+      - {click: '8', label: 8TUV, long_click: CommitComment, key_text_size: 25, __include: Q_配色.yaml:/8, swipe_left: 't', swipe_down: 'u', swipe_right: 'v'}
       - {click: '9', label: 9WXYZ, key_text_size: 25, __include: Q_配色.yaml:/9, swipe_left: 'w', swipe_down: 'x', swipe_right: 'y', swipe_up: 'z'}
       - {width: 17, click: '0', label: '️0', swipe_up: ';', label_symbol: '；', key_text_size: *标点字号, __include: Q_配色.yaml:/数字编辑}
 # 第四行
