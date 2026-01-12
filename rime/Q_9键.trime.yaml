@@ -326,6 +326,9 @@ preset_keys:
   liquid_keyboard_en: {label: 英文, send: function, command: liquid_keyboard, option: 英文}
   menu_keyboard: {label: 菜单, send: function, command: menu_keyboard}
 
+  # 字母上屏
+  commitA: {label: "A", commit: "A"}
+
 
 # 状态栏工具
 tool_bar:
@@ -457,7 +460,7 @@ preset_keyboards:
 # 第一行
       - {width: 17, click: ',', label: '️ ，️', swipe_up: '“”{Left}', label_symbol: '“”', swipe_down: '^', hint: '……', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
       - {click: '1', label: "1'", swipe_up: select_all, label_symbol: '全选', swipe_down: select_H, hint: '选择行', key_text_size: 25, __include: Q_配色.yaml:/1}
-      - {click: '2', label: 2ABC, swipe_up: copy, label_symbol: '复制', key_text_size: 25, __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_down: 'b', swipe_right: 'c', popup: [{label: A, commit: A}]}
+      - {click: '2', label: 2ABC, swipe_up: copy, label_symbol: '复制', key_text_size: 25, __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_down: 'b', swipe_right: 'c', popup: [commitA]}
       - {click: '3', label: 3DEF, swipe_up: paste_clip, label_symbol: '粘贴', key_text_size: 25, __include: Q_配色.yaml:/3, swipe_left: 'd', swipe_down: 'e', swipe_right: 'f'}
       - {width: 17, click: BackSpace2, swipe_left: Escape, swipe_up: DelH, label_symbol: '删除行', key_text_size: 21, __include: Q_配色.yaml:/数字退格}
 # 第二行
