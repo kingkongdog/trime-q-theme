@@ -474,9 +474,9 @@ preset_keyboards:
       - {width: 17, click: '0', label: '️0', swipe_up: ';', label_symbol: '；', key_text_size: *标点字号, __include: Q_配色.yaml:/数字编辑}
 # 第四行
       - {width: 17, height: *九键末行高, click: Keyboard_number2, key_text_size: 18, __include: Q_配色.yaml:/数字返回}
-      - {width: 17, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_up: Theme_settings, key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
+      - {width: 17, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", long_click: Theme_settings, key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
       - {width: 32, click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, __include: Q_配色.yaml:/空格}
-      - {width: 17, click: Keyboard_letter, swipe_up: End, label_symbol: "\uE0B5", swipe_up: Color_settings, key_text_size: 17, __include: Q_配色.yaml:/数字句号}
+      - {width: 17, click: Keyboard_letter, swipe_up: End, label_symbol: "\uE0B5", long_click: Color_settings, key_text_size: 17, __include: Q_配色.yaml:/数字句号}
       - {width: 17, click: Return, swipe_up: Menu, key_text_size: 17, __include: Q_配色.yaml:/数字回车}
 
 # 英文键盘
@@ -494,43 +494,43 @@ preset_keyboards:
     # auto_height_index: -1 #吸收缩放后的余数，数值为该键盘行号，1（首行）至≥最大行号（末行），负数则倒数。
     keys:
 # 第一行
-      - {click: q, long_click: '~', swipe_down: '!', hint: '!', __include: Q_配色.yaml:/q}
-      - {click: w, long_click: '`', swipe_down: '@', hint: '@', __include: Q_配色.yaml:/w}
-      - {click: e, long_click: '_', swipe_down: '#', hint: '#', __include: Q_配色.yaml:/e}
-      - {click: r, long_click: '-', swipe_down: '$', hint: '$', __include: Q_配色.yaml:/r}
-      - {click: t, long_click: '+', swipe_down: '%', hint: '%', __include: Q_配色.yaml:/t}
-      - {click: y, long_click: '=', swipe_down: '^', hint: '^', __include: Q_配色.yaml:/y}
-      - {click: u, long_click: '{', swipe_down: '&', hint: '&', __include: Q_配色.yaml:/u}
-      - {click: i, long_click: '}', swipe_down: '*', hint: '*', __include: Q_配色.yaml:/i}
-      - {click: o, long_click: '[', swipe_down: '(', hint: '(', __include: Q_配色.yaml:/o}
-      - {click: p, long_click: ']', swipe_down: ')', hint: ')', __include: Q_配色.yaml:/p}
+      - {click: q, long_click: '~', swipe_up: '~', swipe_down: '!', hint: '!', __include: Q_配色.yaml:/q}
+      - {click: w, long_click: '`', swipe_up: '`', swipe_down: '@', hint: '@', __include: Q_配色.yaml:/w}
+      - {click: e, long_click: '_', swipe_up: '_', swipe_down: '#', hint: '#', __include: Q_配色.yaml:/e}
+      - {click: r, long_click: '-', swipe_up: '-', swipe_down: '$', hint: '$', __include: Q_配色.yaml:/r}
+      - {click: t, long_click: '+', swipe_up: '+', swipe_down: '%', hint: '%', __include: Q_配色.yaml:/t}
+      - {click: y, long_click: '=', swipe_up: '=', swipe_down: '^', hint: '^', __include: Q_配色.yaml:/y}
+      - {click: u, long_click: '{', swipe_up: '{', swipe_down: '&', hint: '&', __include: Q_配色.yaml:/u}
+      - {click: i, long_click: '}', swipe_up: '}', swipe_down: '*', hint: '*', __include: Q_配色.yaml:/i}
+      - {click: o, long_click: '[', swipe_up: '[', swipe_down: '(', hint: '(', __include: Q_配色.yaml:/o}
+      - {click: p, long_click: ']', swipe_up: ']', swipe_down: ')', hint: ')', __include: Q_配色.yaml:/p}
 # 第二行
       - {width: 5}
-      - {click: a, long_click: select_all, swipe_down: Clear, __include: Q_配色.yaml:/a}
-      - {click: s, long_click: select_H, swipe_down: DelH, __include: Q_配色.yaml:/s}
-      - {click: d, long_click: '|', __include: Q_配色.yaml:/d}
-      - {click: f, long_click: '\', __include: Q_配色.yaml:/f}
-      - {click: g, long_click: liquid_keyboard_emoji, __include: Q_配色.yaml:/g}
-      - {click: h, long_click: Keyboard_theme_editor, __include: Q_配色.yaml:/h}
-      - {click: j, long_click: Clipboard_window, swipe_down: "\n", __include: Q_配色.yaml:/j}
-      - {click: k, long_click: ':', swipe_down: Symbol_switch, __include: Q_配色.yaml:/k}
-      - {click: l, long_click: ';', swipe_down: Hint_switch, __include: Q_配色.yaml:/l}
+      - {click: a, long_click: select_all, swipe_up: select_all, swipe_down: Clear, __include: Q_配色.yaml:/a}
+      - {click: s, long_click: select_H, swipe_up: select_H, swipe_down: DelH, __include: Q_配色.yaml:/s}
+      - {click: d, long_click: '|', swipe_up: '|', __include: Q_配色.yaml:/d}
+      - {click: f, long_click: '\', swipe_up: '\', __include: Q_配色.yaml:/f}
+      - {click: g, long_click: liquid_keyboard_emoji, swipe_up: liquid_keyboard_emoji, __include: Q_配色.yaml:/g}
+      - {click: h, long_click: Keyboard_theme_editor, swipe_up: Keyboard_theme_editor, __include: Q_配色.yaml:/h}
+      - {click: j, long_click: Clipboard_window, swipe_up: Clipboard_window, swipe_down: "\n", __include: Q_配色.yaml:/j}
+      - {click: k, long_click: ':', swipe_up: ':', swipe_down: Symbol_switch, __include: Q_配色.yaml:/k}
+      - {click: l, long_click: ';', swipe_up: ';', swipe_down: Hint_switch, __include: Q_配色.yaml:/l}
       - {width: 5}
 # 第三行
       - {width: 15, click: Shift_L, long_click: Shift_L, double_click: Shift_L3, label_symbol: ' ', composing: Escape, swipe_up: Tab, key_text_size: 24, __include: Q_配色.yaml:/功能}
-      - {click: z, long_click: '?', __include: Q_配色.yaml:/z}
-      - {click: x, long_click: cut, __include: Q_配色.yaml:/x}
-      - {click: c, long_click: copy, __include: Q_配色.yaml:/c}
-      - {click: v, long_click: paste_clip, __include: Q_配色.yaml:/v}
-      - {click: b, long_click: '"', swipe_down: Color_settings, __include: Q_配色.yaml:/b}
-      - {click: n, long_click: "'", swipe_down: Theme_settings, __include: Q_配色.yaml:/n}
-      - {click: m, long_click: '/', swipe_down: Menu, __include: Q_配色.yaml:/m}
+      - {click: z, long_click: '?', swipe_up: '?', __include: Q_配色.yaml:/z}
+      - {click: x, long_click: cut, swipe_up: cut, __include: Q_配色.yaml:/x}
+      - {click: c, long_click: copy, swipe_up: copy, __include: Q_配色.yaml:/c}
+      - {click: v, long_click: paste_clip, swipe_up: paste_clip, __include: Q_配色.yaml:/v}
+      - {click: b, long_click: '"', swipe_up: '"', swipe_down: Color_settings, __include: Q_配色.yaml:/b}
+      - {click: n, long_click: "'", swipe_up: ''', swipe_down: Theme_settings, __include: Q_配色.yaml:/n}
+      - {click: m, long_click: '/', swipe_up: '/', swipe_down: Menu, __include: Q_配色.yaml:/m}
       - {width: 15, click: BackSpace2, swipe_up: Escape, swipe_left: Escape, swipe_down: Delete, key_text_size: 21, __include: Q_配色.yaml:/退格}
 # 第四行
       - {width: 16, click: Keyboard_number2, long_click: liquid_keyboard_en, label_symbol: ' ', key_text_size: 18, __include: Q_配色.yaml:/数字}
-      - {width: 13, click: '.', label: ' 。', long_click: ',', swipe_up: Theme_settings, key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
+      - {width: 13, click: '.', label: ' 。', long_click: Theme_settings, swipe_up: ',', key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
       - {width: 42, click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, key_text_size: 17, __include: Q_配色.yaml:/空格}
-      - {width: 13, click: Keyboard_default2, long_click: '!', swipe_up: Color_settings, key_text_size: 17, __include: Q_配色.yaml:/句号}
+      - {width: 13, click: Keyboard_default2, long_click: Color_settings, swipe_up: '!', key_text_size: 17, __include: Q_配色.yaml:/句号}
       - {width: 16, click: Return, label: enter_labels, swipe_up: Menu, key_text_size: 17, __include: Q_配色.yaml:/回车}
 
 # 数字键盘
