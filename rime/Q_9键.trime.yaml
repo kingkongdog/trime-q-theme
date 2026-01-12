@@ -523,7 +523,7 @@ preset_keyboards:
       - {click: c, long_click: copy, swipe_up: copy, __include: Q_配色.yaml:/c}
       - {click: v, long_click: paste_clip, swipe_up: paste_clip, __include: Q_配色.yaml:/v}
       - {click: b, long_click: '"', swipe_up: '"', swipe_down: Color_settings, __include: Q_配色.yaml:/b}
-      - {click: n, long_click: "'", swipe_up: ''', swipe_down: Theme_settings, __include: Q_配色.yaml:/n}
+      - {click: n, long_click: "'", swipe_up: "'", swipe_down: Theme_settings, __include: Q_配色.yaml:/n}
       - {click: m, long_click: '/', swipe_up: '/', swipe_down: Menu, __include: Q_配色.yaml:/m}
       - {width: 15, click: BackSpace2, swipe_up: Escape, swipe_left: Escape, swipe_down: Delete, key_text_size: 21, __include: Q_配色.yaml:/退格}
 # 第四行
