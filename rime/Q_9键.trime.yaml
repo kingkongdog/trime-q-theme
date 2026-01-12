@@ -455,17 +455,17 @@ preset_keyboards:
     keys:
       - {width: 100, height: *九键顶行高}
 # 第一行
-      - {width: 17, click: ',', label: '️ ，️', swipe_up: '“”{Left}', label_symbol: '“”', label_symbol: '“ ”', swipe_down: '^', hint: '……', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
-      - {click: '1', label: "1'", long_click: select_all, swipe_down: Clear, hint: '⌧', key_text_size: 25, __include: Q_配色.yaml:/1}
+      - {width: 17, click: ',', label: '️ ，️', swipe_up: '“”{Left}', label_symbol: '“”', swipe_down: '^', hint: '……', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
+      - {click: '1', label: "1'", long_click: select_all, key_text_size: 25, __include: Q_配色.yaml:/1}
       - {click: '2', label: 2ABC, swipe_down: set_theme, key_text_size: 25, __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_up: 'b', swipe_right: 'c'}
       - {click: '3', label: 3DEF, long_click: select_H, swipe_down: DelH, hint: '⌦↔', key_text_size: 25, __include: Q_配色.yaml:/3, swipe_left: 'd', swipe_up: 'e', swipe_right: 'f'}
-      - {width: 17, click: BackSpace2, swipe_left: Escape, swipe_down: Delete, hint: '⌦', key_text_size: 21, __include: Q_配色.yaml:/数字退格}
+      - {width: 17, click: BackSpace2, swipe_left: Escape, swipe_up: Clear, label_symbol: '⌧', swipe_down: Delete, hint: '⌦', key_text_size: 21, __include: Q_配色.yaml:/数字退格}
 # 第二行
       - {width: 17, click: '.', label: '️ 。', swipe_up: '/', label_symbol: '/', swipe_down: '@', hint: '@', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符2}
       - {click: '4', label: 4GHI, long_click: cut, key_text_size: 25, __include: Q_配色.yaml:/4, swipe_left: 'g', swipe_up: 'h', swipe_right: 'i'}
       - {click: '5', label: 5JKL, key_text_size: 25, __include: Q_配色.yaml:/5, swipe_left: 'j', swipe_up: 'k', swipe_right: 'l'}
       - {click: '6', label: 6MNO, long_click: Symbol_switch, swipe_down: Hint_switch, key_text_size: 25, __include: Q_配色.yaml:/6, swipe_left: 'm', swipe_up: 'n', swipe_right: 'o'}
-      - {width: 17, click: '!', label: '️！', swipe_up: ':', label_symbol: '：', label_symbol: '：', swipe_down: "\n", hint: "\u21A9", composing: Escape, key_text_size: *标点字号, __include: Q_配色.yaml:/数字空格}
+      - {width: 17, click: '!', label: '️！', swipe_up: ':', label_symbol: '：', swipe_down: "\n", hint: "\u21A9", composing: Escape, key_text_size: *标点字号, __include: Q_配色.yaml:/数字空格}
 # 第三行
       - {width: 17, click: '?', label: ' ？', swipe_up: '(){Left}', label_symbol: '（）', swipe_down: '<>{Left}', hint: '《》', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符3}
       - {click: '7', label: 7PQRS, long_click: copy, key_text_size: 25, __include: Q_配色.yaml:/7, swipe_left: 'p', swipe_up: 'q', swipe_right: 'r', swipe_down: 's'}
