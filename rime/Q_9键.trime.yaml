@@ -41,7 +41,7 @@ author: Q_name
 # 风格样式：
 style:
 # 竖屏键盘
-  keyboard_height: 270 #总高度
+  keyboard_height: 250 #总高度
   keyboard_padding: 2 #两侧边距
   keyboard_padding_bottom: 0 #底部边距
   # keyboard_padding_left: 0 #左手左侧边距
