@@ -15,7 +15,7 @@ author: Q_name
 #键盘整体高度可调节下方总高度
   ⚪: &九键顶行高 2
   ⚪: &九键行高 63
-  ⚪: &九键末行高 62
+  ⚪: &九键末行高 82
 
 # 全局  键距/圆角：
   ⚪: &行距 0
@@ -41,13 +41,13 @@ author: Q_name
 # 风格样式：
 style:
 # 竖屏键盘
-  keyboard_height: 250 #总高度
+  keyboard_height: 270 #总高度
   keyboard_padding: 2 #两侧边距
   keyboard_padding_bottom: 0 #底部边距
   # keyboard_padding_left: 0 #左手左侧边距
   # keyboard_padding_right: 0 #右手右侧边距
 # 横屏键盘
-  keyboard_height_land: 200 #总高度
+  keyboard_height_land: 220 #总高度
   keyboard_padding_land: 60 #两侧边距
   keyboard_padding_land_bottom: 0 #底部边距
 
