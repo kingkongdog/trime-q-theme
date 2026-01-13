@@ -526,7 +526,7 @@ preset_keyboards:
       - {click: '1', label: "1'", swipe_up: select_all, label_symbol: '全选', key_text_size: 25, __include: Q_配色.yaml:/1, popup: [commit_1]}
       - {click: '2', label: 2ABC, swipe_up: copy, label_symbol: '复制', key_text_size: 25, __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_down: 'b', swipe_right: 'c', popup: [commit_A, commit_B, commit_C, commit_2, commit_a, commit_b, commit_c]}
       - {click: '3', label: 3DEF, swipe_up: paste_clip, label_symbol: '粘贴', key_text_size: 25, __include: Q_配色.yaml:/3, swipe_left: 'd', swipe_down: 'e', swipe_right: 'f', popup: [commit_D, commit_E, commit_F, commit_d, commit_e, commit_f, commit_3]}
-      - {width: 17, click: BackSpace2, swipe_left: Escape, swipe_up: DelH, label_symbol: '删除行', swipe_down: select_H, hint: '选择行', key_text_size: 21, __include: Q_配色.yaml:/数字退格}
+      - {width: 17, click: BackSpace2, swipe_left: Escape, swipe_down: DelH, hint: '删除行', swipe_up: select_H, label_symbol: '选择行', key_text_size: 21, __include: Q_配色.yaml:/数字退格}
 # 第二行
       - {width: 17, click: '.', label: '️ 。', swipe_up: '/', label_symbol: '/', swipe_down: '@', hint: '@', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符2}
       - {click: '4', label: 4GHI, swipe_up: cut, label_symbol: '剪切', key_text_size: 25, __include: Q_配色.yaml:/4, swipe_left: 'g', swipe_down: 'h', swipe_right: 'i', popup: [commit_4, commit_G, commit_H, commit_I, commit_g, commit_h, commit_i]}
