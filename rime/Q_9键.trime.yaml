@@ -523,21 +523,21 @@ preset_keyboards:
       - {width: 100, height: *九键顶行高}
 # 第一行
       - {width: 17, click: ',', label: '️ ，️', swipe_up: '“”{Left}', label_symbol: '“”', swipe_down: '^', hint: '……', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
-      - {click: '1', label: "1'", swipe_down: select_all, hint: '全选', key_text_size: 25, __include: Q_配色.yaml:/1, popup: [commit_1]}
-      - {click: '2', label: 2ABC, swipe_down: copy, hint: '复制', key_text_size: 25, __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_up: 'b', swipe_right: 'c', popup: [commit_A, commit_B, commit_C, commit_2, commit_a, commit_b, commit_c]}
-      - {click: '3', label: 3DEF, swipe_down: paste_clip, hint: '粘贴', key_text_size: 25, __include: Q_配色.yaml:/3, swipe_left: 'd', swipe_up: 'e', swipe_right: 'f', popup: [commit_D, commit_E, commit_F, commit_d, commit_e, commit_f, commit_3]}
+      - {click: '1', label: "'", label_symbol: "1", swipe_down: select_all, hint: '全选', key_text_size: 25, __include: Q_配色.yaml:/1, popup: [commit_1]}
+      - {click: '2', label: ABC, label_symbol: "2", swipe_down: copy, hint: '复制', key_text_size: 25, __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_up: 'b', swipe_right: 'c', popup: [commit_A, commit_B, commit_C, commit_2, commit_a, commit_b, commit_c]}
+      - {click: '3', label: DEF, label_symbol: "3", swipe_down: paste_clip, hint: '粘贴', key_text_size: 25, __include: Q_配色.yaml:/3, swipe_left: 'd', swipe_up: 'e', swipe_right: 'f', popup: [commit_D, commit_E, commit_F, commit_d, commit_e, commit_f, commit_3]}
       - {width: 17, click: BackSpace2, swipe_left: Escape, swipe_down: DelH, hint: '删除行', swipe_up: select_H, label_symbol: '选择行', key_text_size: 21, __include: Q_配色.yaml:/数字退格}
 # 第二行
       - {width: 17, click: '.', label: '️ 。', swipe_up: '/', label_symbol: '/', swipe_down: '@', hint: '@', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符2}
-      - {click: '4', label: 4GHI, swipe_down: cut, hint: '剪切', key_text_size: 25, __include: Q_配色.yaml:/4, swipe_left: 'g', swipe_up: 'h', swipe_right: 'i', popup: [commit_4, commit_G, commit_H, commit_I, commit_g, commit_h, commit_i]}
-      - {click: '5', label: 5JKL, swipe_down: Clear, hint: '清空', key_text_size: 25, __include: Q_配色.yaml:/5, swipe_left: 'j', swipe_up: 'k', swipe_right: 'l', popup: [commit_J, commit_K, commit_L, commit_5, commit_j, commit_k, commit_l]}
-      - {click: '6', label: 6MNO, swipe_down: Delete, hint: 'Del', key_text_size: 25, __include: Q_配色.yaml:/6, swipe_left: 'm', swipe_up: 'n', swipe_right: 'o', popup: [commit_M, commit_N, commit_O, commit_m, commit_n, commit_o, commit_6]}
+      - {click: '4', label: GHI, label_symbol: "4", swipe_down: cut, hint: '剪切', key_text_size: 25, __include: Q_配色.yaml:/4, swipe_left: 'g', swipe_up: 'h', swipe_right: 'i', popup: [commit_4, commit_G, commit_H, commit_I, commit_g, commit_h, commit_i]}
+      - {click: '5', label: JKL, label_symbol: "5", swipe_down: Clear, hint: '清空', key_text_size: 25, __include: Q_配色.yaml:/5, swipe_left: 'j', swipe_up: 'k', swipe_right: 'l', popup: [commit_J, commit_K, commit_L, commit_5, commit_j, commit_k, commit_l]}
+      - {click: '6', label: MNO, label_symbol: "6", swipe_down: Delete, hint: 'Del', key_text_size: 25, __include: Q_配色.yaml:/6, swipe_left: 'm', swipe_up: 'n', swipe_right: 'o', popup: [commit_M, commit_N, commit_O, commit_m, commit_n, commit_o, commit_6]}
       - {width: 17, click: '!', label: '️!', swipe_up: ':', label_symbol: '：', swipe_down: "\n", hint: "\u21A9", composing: Escape, key_text_size: *标点字号, __include: Q_配色.yaml:/数字空格}
 # 第三行
       - {width: 17, click: '?', label: ' ？', swipe_up: '(){Left}', label_symbol: '（）', swipe_down: '<>{Left}', hint: '《》', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符3}
-      - {click: '7', label: 7PQRS, key_text_size: 25, __include: Q_配色.yaml:/7, swipe_left: 'p', swipe_up: 'q', swipe_right: 'r', swipe_down: 's', popup: [commit_7, commit_P, commit_Q, commit_R, commit_S, commit_p, commit_q, commit_r, commit_s]}
-      - {click: '8', label: 8TUV, swipe_down: CommitComment, hint: "\uE1BE", key_text_size: 25, __include: Q_配色.yaml:/8, swipe_left: 't', swipe_up: 'u', swipe_right: 'v', popup: [commit_T, commit_U, commit_V, commit_8, commit_t, commit_u, commit_v]}
-      - {click: '9', label: 9WXYZ, key_text_size: 25, __include: Q_配色.yaml:/9, swipe_left: 'w', swipe_up: 'x', swipe_right: 'y', swipe_down: 'z', popup: [commit_W, commit_X, commit_Y, commit_Z, commit_w, commit_x, commit_y, commit_z, commit_9]}
+      - {click: '7', label: PQRS, label_symbol: "7", key_text_size: 25, __include: Q_配色.yaml:/7, swipe_left: 'p', swipe_up: 'q', swipe_right: 'r', swipe_down: 's', popup: [commit_7, commit_P, commit_Q, commit_R, commit_S, commit_p, commit_q, commit_r, commit_s]}
+      - {click: '8', label: TUV, label_symbol: "8", swipe_down: CommitComment, hint: "\uE1BE", key_text_size: 25, __include: Q_配色.yaml:/8, swipe_left: 't', swipe_up: 'u', swipe_right: 'v', popup: [commit_T, commit_U, commit_V, commit_8, commit_t, commit_u, commit_v]}
+      - {click: '9', label: WXYZ, label_symbol: "9", key_text_size: 25, __include: Q_配色.yaml:/9, swipe_left: 'w', swipe_up: 'x', swipe_right: 'y', swipe_down: 'z', popup: [commit_W, commit_X, commit_Y, commit_Z, commit_w, commit_x, commit_y, commit_z, commit_9]}
       - {width: 17, click: '0', label: '️0', swipe_up: ';', label_symbol: '；', key_text_size: *标点字号, __include: Q_配色.yaml:/数字编辑, popup: [commit_0]}
 # 第四行
       - {width: 17, height: *九键末行高, click: Keyboard_number2, key_text_size: 18, __include: Q_配色.yaml:/数字返回}
