@@ -397,6 +397,9 @@ preset_keys:
   # @
   commit_@: {commit: "@"}
 
+  # space composing 0
+  space_composing_0: {label: "仓·九宫格", send: 0}
+
 # 状态栏工具
 tool_bar:
   button_spacing: 7 #按钮间距
@@ -545,7 +548,7 @@ preset_keyboards:
 # 第四行
       - {width: 17, height: *九键末行高, click: Keyboard_number2, key_text_size: 18, __include: Q_配色.yaml:/数字返回}
       - {width: 17, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Theme_settings, key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
-      - {width: 32, click: space, long_click: VOICE_ASSIST, popup: [commit_0], label_symbol: '0', swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, __include: Q_配色.yaml:/空格, composing: {label: "仓·九宫格", send: 0}}
+      - {width: 32, click: space, long_click: VOICE_ASSIST, popup: [commit_0], label_symbol: '0', swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, __include: Q_配色.yaml:/空格, composing: space_composing_0}
       - {width: 17, click: Keyboard_letter, swipe_up: End, label_symbol: "\uE0B5", long_click: Color_settings, key_text_size: 17, __include: Q_配色.yaml:/数字句号}
       - {width: 17, click: Return, swipe_up: Menu, key_text_size: 17, __include: Q_配色.yaml:/数字回车}
 
