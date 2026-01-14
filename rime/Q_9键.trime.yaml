@@ -78,7 +78,7 @@ style:
 # 语言/键盘
   # background_folder: #背景图保存在background目录下的哪个子目录
   auto_caps: false #自动句首大写:true|false|ascii
-  reset_ascii_mode: false #不同进程中显示键盘时重置为中文状态（true:重置为中文；false:记忆中英状态）
+  reset_ascii_mode: true #不同进程中显示键盘时重置为中文状态（true:重置为中文；false:记忆中英状态）
   key_border: 1 #按键边框宽度
   key_width: 10.0 #键宽，占屏幕宽的百分比
   key_height: 55 #键高
@@ -510,9 +510,9 @@ preset_keyboards:
   default:
     lock: true
     ascii_mode: 0
-    reset_ascii_mode: false
+    reset_ascii_mode: true
     label_transform: none # 中文时字母大写显示：uppercase 小写：none
-    # ascii_keyboard: ascii_keyboard #指定英文模式键盘
+    ascii_keyboard: letter #指定英文模式键盘
     width: 22
     height: *九键行高
     key_symbol_offset_x: *上符x
@@ -553,7 +553,7 @@ preset_keyboards:
   letter:
     __include: /preset_keyboards/default
     ascii_mode: 1
-    reset_ascii_mode: false
+    reset_ascii_mode: true
     label_transform: uppercase # 中文时字母大写显示：uppercase 小写：none
     # ascii_keyboard: ascii_keyboard #指定英文模式键盘
     width: 10
