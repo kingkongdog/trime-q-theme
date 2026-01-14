@@ -397,9 +397,6 @@ preset_keys:
   # @
   commit_@: {commit: "@"}
 
-  # hidden key
-  hidden_key: {label: "", width: 0, height: 0} 
-
 # 状态栏工具
 tool_bar:
   button_spacing: 7 #按钮间距
@@ -530,7 +527,7 @@ preset_keyboards:
 # 第一行
       - {width: 17, click: ',', label: '️ ，️', swipe_up: '“”{Left}', label_symbol: '“”', swipe_down: "'", hint: '’', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
       - {click: '1', label: "'⤴︎⬆︎", label_symbol: "1", swipe_up: "'", swipe_down: select_all, hint: '全选', key_text_size: 25, __include: Q_配色.yaml:/1, popup: [commit_1]}
-      - {click: '2', label: ABC, label_symbol: "2", swipe_down: copy, hint: '复制', key_text_size: 25, __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_up: 'b', swipe_right: 'c', popup: [commit_2, commit_A, hidden_key, commit_B, hidden_key, commit_C, hidden_key, commit_a, hidden_key, commit_b, hidden_key, commit_c, hidden_key, hidden_key, hidden_key, hidden_key, hidden_key, hidden_key, hidden_key, hidden_key, hidden_key, hidden_key, hidden_key, hidden_key]}
+      - {click: '2', label: ABC, label_symbol: "2", swipe_down: copy, hint: '复制', key_text_size: 25, __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_up: 'b', swipe_right: 'c', popup: [commit_2, commit_A, commit_B, commit_C, commit_a, commit_b, commit_c]}
       - {click: '3', label: DEF, label_symbol: "3", swipe_down: paste_clip, hint: '粘贴', key_text_size: 25, __include: Q_配色.yaml:/3, swipe_left: 'd', swipe_up: 'e', swipe_right: 'f', popup: [commit_3, commit_D, commit_E, commit_F, commit_d, commit_e, commit_f]}
       - {width: 17, click: BackSpace2, swipe_left: Escape, swipe_down: DelH, hint: '删除行', swipe_up: select_H, label_symbol: '选择行', key_text_size: 21, __include: Q_配色.yaml:/数字退格}
 # 第二行
