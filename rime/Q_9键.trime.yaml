@@ -508,7 +508,7 @@ tool_bar:
 # 主键盘
 preset_keyboards:
   default:
-    lock: true
+    lock: false
     ascii_mode: 0
     reset_ascii_mode: true
     label_transform: none # 中文时字母大写显示：uppercase 小写：none
@@ -556,6 +556,7 @@ preset_keyboards:
     reset_ascii_mode: true
     label_transform: uppercase # 中文时字母大写显示：uppercase 小写：none
     # ascii_keyboard: ascii_keyboard #指定英文模式键盘
+    lock: false
     width: 10
     height: *英文行高
     vertical_gap: *英文行距
