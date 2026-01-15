@@ -307,7 +307,7 @@ preset_keys:
   Keyboard_number2: {label: 123, send: Eisu_toggle, select: number}
   Keyboard_lock: {label: 返回, send: Eisu_toggle, select: .last_lock} #返回上一个锁定的键盘，主题内有多个主键盘时，非主键盘勿开启lock。
   Keyboard_default: {label: 返回, send: Eisu_toggle, select: .default}
-  Keyboard_default2: {label: 英, send: Eisu_toggle, select: .default}
+  Keyboard_default2: {label: "英 ", send: Eisu_toggle, select: .default}
   Keyboard_landscape: {label: 竖, send: Eisu_toggle, select: landscape}
   space: {slide_cursor: true, send: space}
   space2: {label: ⎵, slide_cursor: true, send: space}
