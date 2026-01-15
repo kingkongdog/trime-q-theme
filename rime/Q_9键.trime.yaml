@@ -508,8 +508,8 @@ tool_bar:
     - *undo_button
 
 
-# 主键盘
 preset_keyboards:
+# 主键盘
   default:
     lock: false
     ascii_mode: 0
