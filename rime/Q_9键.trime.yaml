@@ -48,7 +48,7 @@ style:
   # keyboard_padding_right: 0 #右手右侧边距
 # 横屏键盘
   keyboard_height_land: 220 #总高度
-  keyboard_padding_land: 300 #两侧边距
+  keyboard_padding_land: 200 #两侧边距
   keyboard_padding_land_bottom: 0 #底部边距
 
 # 字型/字号
