@@ -564,6 +564,7 @@ preset_keyboards:
     height: *英文行高
     vertical_gap: *英文行距
     horizontal_gap: *英文列距
+    key_text_offset_y: -2
     # columns: 8 #列数，超出则换行
     # auto_height_index: -1 #吸收缩放后的余数，数值为该键盘行号，1（首行）至≥最大行号（末行），负数则倒数。
     keys:
