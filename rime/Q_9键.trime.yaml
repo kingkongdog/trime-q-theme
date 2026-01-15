@@ -63,8 +63,8 @@ style:
   hanb_font: han.ttf #扩充字型
   comment_text_size: 12 #提示字号
   candidate_text_size: 21 #候选字号
-  key_text_size: 24 #按键字号
-  popup_text_size: 23 #按键气泡字号
+  key_text_size: 22 #按键字号
+  popup_text_size: 22 #按键气泡字号
   key_long_text_size: 17 #长文本按键字号
   symbol_text_size: 10 #上下符字号
 
