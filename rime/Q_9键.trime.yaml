@@ -399,7 +399,7 @@ preset_keys:
   commit_@: {commit: "@"}
 
   # space composing 0
-  space_composing_0: {label: "%(schema_name)", send: 0}
+  space_composing_0: {label: "{schema_name}", send: 0}
 
 # 状态栏工具
 tool_bar:
