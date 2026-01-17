@@ -87,10 +87,10 @@ style:
   round_corner: *圆角 #按鍵圓角半徑
   vertical_correction: -5 #按键实际纵向偏移 负为向下
   shadow_radius: 0.0 #按键文字阴影半径
-  popup_width: 35 #按键气泡宽度
+  popup_width: 34 #按键气泡宽度
   popup_height: 50 #按键气泡高度
-  popup_bottom_margin: 75 #按键气泡底部边距（较原始按键上移距离）
-  popup_key_height: 52 #{__include: /style/popup_height} #按键气泡内键（容器）高度；跟随按键气泡高度，也可为数值（建议值：按键气泡高度+2）
+  popup_bottom_margin: 70 #按键气泡底部边距（较原始按键上移距离）
+  popup_key_height: 50 #{__include: /style/popup_height} #按键气泡内键（容器）高度；跟随按键气泡高度，也可为数值（建议值：按键气泡高度+2）
   proximity_correction: true #按键纠错
   enter_label_mode: 3 #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels: #定义Enter键的文本
