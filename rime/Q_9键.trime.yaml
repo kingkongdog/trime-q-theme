@@ -87,7 +87,7 @@ style:
   round_corner: *圆角 #按鍵圓角半徑
   vertical_correction: -5 #按键实际纵向偏移 负为向下
   shadow_radius: 0.0 #按键文字阴影半径
-  popup_width: 40 #按键气泡宽度
+  popup_width: 35 #按键气泡宽度
   popup_height: 55 #按键气泡高度
   popup_bottom_margin: 80 #按键气泡底部边距（较原始按键上移距离）
   popup_key_height: 57 #{__include: /style/popup_height} #按键气泡内键（容器）高度；跟随按键气泡高度，也可为数值（建议值：按键气泡高度+2）
