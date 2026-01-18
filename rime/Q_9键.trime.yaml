@@ -448,7 +448,7 @@ tool_bar:
       style: "\uE180"
       fg_highlight: {__include: /tool_bar/primary_button/foreground/fg_highlight} #跟随主按钮字高亮
       font_size: 25
-      padding: 10
+      padding: 13
     action: VOICE_ASSIST
 
   #🔴表情：
@@ -473,7 +473,7 @@ tool_bar:
       style: "\uE09C"
       fg_highlight: {__include: /tool_bar/primary_button/foreground/fg_highlight}
       font_size: 25
-      padding: 10
+      padding: 13
     action: Clipboard_window
 
   #🔴编辑：
