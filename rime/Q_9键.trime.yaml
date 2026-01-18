@@ -31,7 +31,7 @@ author: Q_name
 # 字符 X/Y 轴偏移：左移上移负数-，右移下移正数
   ⚪: &上符x 0
   ⚪: &上符y 5
-  ⚪: &字y 0
+  ⚪: &字y -2
   ⚪: &下符y -3.5
   ⚪: &按下偏移y 2
 
@@ -403,7 +403,7 @@ preset_keys:
 
 # 状态栏工具
 tool_bar:
-  button_spacing: 7 #按钮间距
+  button_spacing: 5 #按钮间距
   button_font: iconfont.ttf #按钮字体，内置质感设计图标样式（ic@+名称或\u+U码）
 
   #🔴左侧固定主按钮：
@@ -448,6 +448,7 @@ tool_bar:
       style: "\uE180"
       fg_highlight: {__include: /tool_bar/primary_button/foreground/fg_highlight} #跟随主按钮字高亮
       font_size: 25
+      padding: 5
     action: VOICE_ASSIST
 
   #🔴表情：
@@ -472,6 +473,7 @@ tool_bar:
       style: "\uE099"
       fg_highlight: {__include: /tool_bar/primary_button/foreground/fg_highlight}
       font_size: 25
+      padding: 5
     action: Clipboard_window
 
   #🔴编辑：
