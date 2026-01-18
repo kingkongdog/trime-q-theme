@@ -403,7 +403,7 @@ preset_keys:
 
 # 状态栏工具
 tool_bar:
-  button_spacing: 5 #按钮间距
+  button_spacing: 0 #按钮间距
   button_font: iconfont.ttf #按钮字体，内置质感设计图标样式（ic@+名称或\u+U码）
 
   #🔴左侧固定主按钮：
@@ -448,7 +448,7 @@ tool_bar:
       style: "\uE180"
       fg_highlight: {__include: /tool_bar/primary_button/foreground/fg_highlight} #跟随主按钮字高亮
       font_size: 25
-      padding: 5
+      padding: 10
     action: VOICE_ASSIST
 
   #🔴表情：
@@ -470,10 +470,10 @@ tool_bar:
       type: {__include: /tool_bar/primary_button/background/type}
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius}
     foreground:
-      style: "\uE099"
+      style: "\uE09C"
       fg_highlight: {__include: /tool_bar/primary_button/foreground/fg_highlight}
       font_size: 25
-      padding: 5
+      padding: 10
     action: Clipboard_window
 
   #🔴编辑：
