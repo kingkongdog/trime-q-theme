@@ -544,7 +544,7 @@ preset_keyboards:
     keys:
       - {width: 100, height: *九键顶行高}
 # 第一行
-      - {width: 21, click: ',', label: '️ ，️', swipe_up: '""{Left}', label_symbol: '“”', swipe_down: "\", hint: '、', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
+      - {width: 21, click: ',', label: '️ ，️', swipe_up: "\"\"{Left}", label_symbol: '“”', swipe_down: "\\", hint: '、', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
       - {click: 1, label: "'⤴︎⬆︎", label_symbol: "1", swipe_up: "'", swipe_down: select_all, hint: '全选', __include: Q_配色.yaml:/1, key_text_size: 20, popup: [commit_1_focused]}
       - {click: 2, label: ABC, label_symbol: "2", swipe_down: copy, hint: '复制', __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_up: 'b', swipe_right: 'c', key_text_size: 20, popup: [commit_A, commit_B, commit_C, commit_2_focused, commit_a, commit_b, commit_c]}
       - {click: 3, label: DEF, label_symbol: "3", swipe_down: paste_clip, hint: '粘贴', __include: Q_配色.yaml:/3, swipe_left: 'd', swipe_up: 'e', swipe_right: 'f', key_text_size: 20, popup: [commit_D, commit_E, commit_F, commit_d, commit_e, commit_f, commit_3_focused]}
@@ -588,7 +588,7 @@ preset_keyboards:
       - {width: 100, height: *九键顶行高}
 # 第一行
       - {width: 27}
-      - {width: 8, click: ',', label: '️ ，️', swipe_up: '""{Left}', label_symbol: '“”', swipe_down: "\", hint: '、', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
+      - {width: 8, click: ',', label: '️ ，️', swipe_up: "\"\"{Left}", label_symbol: '“”', swipe_down: "\\", hint: '、', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
       - {click: 1, label: "'⤴︎⬆︎", label_symbol: "1", swipe_up: "'", swipe_down: select_all, hint: '全选', __include: Q_配色.yaml:/1, key_text_size: 20, popup: [commit_1]}
       - {click: 2, label: ABC, label_symbol: "2", swipe_down: copy, hint: '复制', __include: Q_配色.yaml:/2, swipe_left: 'a', swipe_up: 'b', swipe_right: 'c', key_text_size: 20, popup: [commit_A, commit_B, commit_C, commit_2, commit_a, commit_b, commit_c]}
       - {click: 3, label: DEF, label_symbol: "3", swipe_down: paste_clip, hint: '粘贴', __include: Q_配色.yaml:/3, swipe_left: 'd', swipe_up: 'e', swipe_right: 'f', key_text_size: 20, popup: [commit_D, commit_E, commit_F, commit_d, commit_e, commit_f, commit_3]}
