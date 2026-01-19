@@ -562,11 +562,11 @@ preset_keyboards:
       - {click: 9, label: WXYZ, label_symbol: "9", __include: Q_配色.yaml:/9, swipe_left: 'w', swipe_up: 'x', swipe_right: 'y', swipe_down: 'z', key_text_size: 20, popup: [commit_W, commit_X, commit_Y, commit_Z, commit_w, commit_x, commit_y, commit_z, commit_9_focused]}
       - {width: 16, click: Shift_L2, long_click: Shift_L2, label: '️Shift', swipe_up: commit_@, label_symbol: '@', swipe_down: "\n", hint: "\uE031", swipe_left: Escape, composing: Escape, key_text_size: *标点字号, __include: Q_配色.yaml:/数字编辑}
 # 第四行
-      - {width: 21, height: *九键末行高, click: Keyboard_number2, long_click: Theme_settings, label_symbol: " ", key_text_size: 18, __include: Q_配色.yaml:/数字返回}
-      - {width: 14, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Color_settings, key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
+      - {width: 21, height: *九键末行高, click: Keyboard_number2, long_click: Theme_settings, hint: "\uE102", label_symbol: " ", key_text_size: 18, __include: Q_配色.yaml:/数字返回}
+      - {width: 14, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Color_settings, hint: "\uE130", key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
       - {width: 35, click: space, label: 中文之韵, long_click: VOICE_ASSIST, popup: [commit_0_focused], label_symbol: '0', swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, __include: Q_配色.yaml:/空格, composing: space_composing_0}
       - {width: 14, click: Keyboard_letter, label: "\uE074", long_click: Keyboard_landscape, swipe_up: End, label_symbol: "\uE0B5", key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/数字句号}
-      - {width: 16, click: Return, long_click: Menu, label_symbol: " ", key_text_size: 17, __include: Q_配色.yaml:/数字回车}
+      - {width: 16, click: Return, long_click: Menu, label_symbol: " ", hint: "\uE069", key_text_size: 17, __include: Q_配色.yaml:/数字回车}
 
 # 横屏主键盘 暂时设置键宽为竖屏的一半，显示效果看起来还是有点太宽，还可以再优化下
   landscape:
@@ -612,11 +612,11 @@ preset_keyboards:
       - {width: 27}
 # 第四行
       - {width: 27}
-      - {width: 8, height: *九键末行高, click: Keyboard_number2, long_click: Theme_settings, label_symbol: " ", key_text_size: 18, __include: Q_配色.yaml:/数字返回}
-      - {width: 8, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Color_settings, key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
+      - {width: 8, height: *九键末行高, click: Keyboard_number2, long_click: Theme_settings, hint: "\uE102", label_symbol: " ", key_text_size: 18, __include: Q_配色.yaml:/数字返回}
+      - {width: 8, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Color_settings, hint: "\uE130", key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
       - {width: 14, click: space, label: 中文之韵, long_click: VOICE_ASSIST, popup: [commit_0_focused], label_symbol: '0', swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, __include: Q_配色.yaml:/空格, composing: space_composing_0}
       - {width: 8, click: Keyboard_default2, label: "\uE101", swipe_up: End, label_symbol: "\uE0B5", key_text_size: 30, __include: Q_配色.yaml:/数字句号}
-      - {width: 8, click: Return, long_click: Menu, label_symbol: " ", key_text_size: 17, __include: Q_配色.yaml:/数字回车}
+      - {width: 8, click: Return, long_click: Menu, label_symbol: " ", hint: "\uE069", key_text_size: 17, __include: Q_配色.yaml:/数字回车}
       - {width: 27}
 
 # 英文键盘
@@ -670,10 +670,10 @@ preset_keyboards:
       - {width: 15, click: BackSpace2, swipe_up: Escape, swipe_left: Escape, swipe_down: Delete, key_text_size: 21, __include: Q_配色.yaml:/退格}
 # 第四行
       - {width: 16, click: Keyboard_number2, long_click: liquid_keyboard_en, label_symbol: ' ', key_text_size: 18, __include: Q_配色.yaml:/数字}
-      - {width: 13, click: '.', label: ' 。', label_symbol: "\uE144", long_click: Theme_settings, swipe_up: ',', key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
+      - {width: 13, click: '.', label: ' 。', label_symbol: "\uE102", long_click: Theme_settings, swipe_up: ',', key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
       - {width: 42, click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, key_text_size: 17, __include: Q_配色.yaml:/空格}
-      - {width: 13, click: Keyboard_default2, label: "\uE075", label_symbol: "\uE134", long_click: Color_settings, swipe_up: '!', key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/句号}
-      - {width: 16, click: Return, label: enter_labels, swipe_up: Menu, key_text_size: 17, __include: Q_配色.yaml:/回车}
+      - {width: 13, click: Keyboard_default2, label: "\uE075", label_symbol: "\uE130", long_click: Color_settings, swipe_up: '!', key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/句号}
+      - {width: 16, click: Return, label: enter_labels, long_click: Menu, label_symbol: "\uE069", key_text_size: 17, __include: Q_配色.yaml:/回车}
 
 # 数字键盘
   number:
