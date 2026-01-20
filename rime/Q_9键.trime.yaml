@@ -569,7 +569,7 @@ preset_keyboards:
       - {width: 16, click: Return, long_click: Menu, label_symbol: " ", hint: "\uE144", key_text_size: 17, __include: Q_配色.yaml:/数字回车, key_hint_offset_y: -5}
 # 第五行
       - {width: 21, height: 50, click: Left, __include: Q_配色.yaml:/数字返回}
-      - {width: 63, slide_cursor: true}
+      - {width: 63, slide_cursor: true, __include: Q_配色.yaml:/空格}
       - {width: 16, click: Right, __include: Q_配色.yaml:/数字回车}
 
 # 横屏主键盘 暂时设置键宽为竖屏的一半，显示效果看起来还是有点太宽，还可以再优化下
