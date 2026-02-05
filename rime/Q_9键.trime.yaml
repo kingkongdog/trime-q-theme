@@ -920,7 +920,7 @@ liquid_keyboard:
   ascii:
     type: SINGLE
     name: 英文
-    keys: ",.?!:;/\\|*-+=^$`'\"^~@#%&()[]{}_"
+    keys: ",.?!:;/\\|*-+=^$`'\"^~@#%&()[]{}<>_"
   ids:
     type: SINGLE
     name: IDS
