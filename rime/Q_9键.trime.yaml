@@ -312,7 +312,7 @@ preset_keys:
   space: {slide_cursor: true, send: space}
   space2: {label: ⎵, slide_cursor: true, send: space}
   space3: {label: 空格, send: space}
-  Return: {label: enter_labels, send: Return}
+  Return: {label: enter_labels, send: Enter}
   Return2: {label: 回车, send: Return}
   Keyboard_switch: {label: 鍵盤, send: Eisu_toggle, select: .next}
   set_color_ink: { label: 切换到ink配色, send: function, command: set_color_scheme, option: ink}
