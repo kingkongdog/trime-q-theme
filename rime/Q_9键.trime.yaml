@@ -644,6 +644,17 @@ preset_keyboards:
     # columns: 8 #列数，超出则换行
     # auto_height_index: -1 #吸收缩放后的余数，数值为该键盘行号，1（首行）至≥最大行号（末行），负数则倒数。
     keys:
+# 第 0 行
+      - {click: 1, __include: Q_配色.yaml:/1}
+      - {click: 2, __include: Q_配色.yaml:/2}
+      - {click: 3, __include: Q_配色.yaml:/3}
+      - {click: 4, __include: Q_配色.yaml:/4}
+      - {click: 5, __include: Q_配色.yaml:/5}
+      - {click: 6, __include: Q_配色.yaml:/6}
+      - {click: 7, __include: Q_配色.yaml:/7}
+      - {click: 8, __include: Q_配色.yaml:/8}
+      - {click: 9, __include: Q_配色.yaml:/9}
+      - {click: 0, __include: Q_配色.yaml:/0}
 # 第一行
       - {click: q, long_click: '~', swipe_up: '~', swipe_down: '!', hint: '!', __include: Q_配色.yaml:/q}
       - {click: w, long_click: '`', swipe_up: '`', swipe_down: '@', hint: '@', __include: Q_配色.yaml:/w}
