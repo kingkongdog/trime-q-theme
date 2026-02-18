@@ -593,6 +593,7 @@ preset_keyboards:
     key_press_offset_y: *按下偏移y
     # columns: 8 #列数，超出则换行
     # auto_height_index: -1 #吸收缩放后的余数，数值为该键盘行号，1（首行）至≥最大行号（末行），负数则倒数。
+    keyboard_padding_bottom: 0
     keys:
       - {width: 100, height: *九键顶行高}
 # 第一行
