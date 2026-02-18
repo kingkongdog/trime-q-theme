@@ -43,7 +43,7 @@ style:
 # 竖屏键盘
   keyboard_height: 260 #总高度
   keyboard_padding: 2 #两侧边距
-  keyboard_padding_bottom: 0 #底部边距
+  keyboard_padding_bottom: 10 #底部边距
   # keyboard_padding_left: 0 #左手左侧边距
   # keyboard_padding_right: 0 #右手右侧边距
 # 横屏键盘
