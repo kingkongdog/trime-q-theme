@@ -690,7 +690,7 @@ preset_keyboards:
       - {click: b, long_click: '"', swipe_up: '"', swipe_down: Color_settings, __include: Q_配色.yaml:/b}
       - {click: n, long_click: "'", swipe_up: "'", swipe_down: Theme_settings, __include: Q_配色.yaml:/n}
       - {click: m, long_click: '/', swipe_up: '/', swipe_down: Menu, __include: Q_配色.yaml:/m}
-      - {width: 15, click: BackSpace2, swipe_up: Clear, label_symbol: "清空", swipe_left: Escape, swipe_down: Delete, key_text_size: 21, __include: Q_配色.yaml:/退格}
+      - {width: 15, click: BackSpace2, swipe_up: Delete, swipe_left: Escape, swipe_down: Clear, hint: "清空", key_text_size: 21, __include: Q_配色.yaml:/退格}
 # 第四行
       - {width: 16, click: Keyboard_number2, long_click: liquid_keyboard_en, label_symbol: ' ', key_text_size: 18, __include: Q_配色.yaml:/数字}
       - {width: 42, click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, key_text_size: 17, __include: Q_配色.yaml:/空格}
