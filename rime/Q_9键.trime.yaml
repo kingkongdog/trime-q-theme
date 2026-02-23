@@ -301,7 +301,7 @@ preset_keys:
   Shift_L3: {functional: true, send: Shift_L, shift_lock: click} #供双击使用，仅shift_lock: click支持双击
   BackSpace: {label: 退格, repeatable: true, send: BackSpace}
   # BackSpace: {label: 退格, repeatable: true, slide_delete: true, send: BackSpace} #逐字删除/恢复文本
-  BackSpace2: {label: ⌫, repeatable: true, send: BackSpace}
+  BackSpace2: {label: "\uE040", repeatable: true, send: BackSpace}
   Keyboard_letter: {label: "\uE074", send: Eisu_toggle, select: letter}
   Keyboard_number: {label: 数字, send: Eisu_toggle, select: number}
   Keyboard_number2: {label: 123, send: Eisu_toggle, select: number}
