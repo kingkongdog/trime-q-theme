@@ -647,7 +647,7 @@ preset_keyboards:
     keyboard_height: 280
     keys:
 # 第 0 行
-      - {click: 1, __include: Q_配色.yaml:/1}
+      - {click: 1, height: 40, __include: Q_配色.yaml:/1}
       - {click: 2, __include: Q_配色.yaml:/2}
       - {click: 3, __include: Q_配色.yaml:/3}
       - {click: 4, __include: Q_配色.yaml:/4}
@@ -689,7 +689,7 @@ preset_keyboards:
       - {click: b, long_click: '"', swipe_up: '"', swipe_down: Color_settings, __include: Q_配色.yaml:/b}
       - {click: n, long_click: "'", swipe_up: "'", swipe_down: Theme_settings, __include: Q_配色.yaml:/n}
       - {click: m, long_click: '/', swipe_up: '/', swipe_down: Menu, __include: Q_配色.yaml:/m}
-      - {width: 15, click: BackSpace2, swipe_up: Escape, swipe_left: Escape, swipe_down: Delete, key_text_size: 21, __include: Q_配色.yaml:/退格}
+      - {width: 15, long_click: Clear, click: BackSpace2, swipe_up: Escape, swipe_left: Escape, swipe_down: Delete, key_text_size: 21, __include: Q_配色.yaml:/退格}
 # 第四行
       - {width: 16, click: Keyboard_number2, long_click: liquid_keyboard_en, label_symbol: ' ', key_text_size: 18, __include: Q_配色.yaml:/数字}
       - {width: 13, click: '.', label: ' 。', label_symbol: "\uE102", long_click: Theme_settings, swipe_up: ',', key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
