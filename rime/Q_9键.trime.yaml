@@ -324,8 +324,8 @@ preset_keys:
   liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"} #退出liquidkeyboard
   liquid_keyboard_emoji: {label: ☻, send: function, command: liquid_keyboard, option: emoji}
   Clipboard_window: {label: ⏍, send: function, command: clipboard_window}
-  liquid_keyboard_cn: {label: 中文, send: function, command: liquid_keyboard, option: 中文}
-  liquid_keyboard_en: {label: 英文, send: function, command: liquid_keyboard, option: 英文}
+  liquid_keyboard_cn: {label: 符, send: function, command: liquid_keyboard, option: 中文}
+  liquid_keyboard_en: {label: 符, send: function, command: liquid_keyboard, option: 英文}
   menu_keyboard: {label: 菜单, send: function, command: menu_keyboard}
 
   # 大写字母 A - Z
@@ -722,7 +722,7 @@ preset_keyboards:
       - {width: 15, click: Keyboard_number2, long_click: liquid_keyboard_en, label_symbol: ' ', key_text_size: 18, __include: Q_配色.yaml:/数字}
       - {width: 13, click: liquid_keyboard_en, label: 符, key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
       - {width: 10, click: "commit_,", long_click: "commit_<", swipe_up: "commit_<", key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
-      - {width: 24, click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, key_text_size: 17, __include: Q_配色.yaml:/空格}
+      - {width: 24, click: space, label: 好好吃饭, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, key_text_size: 17, __include: Q_配色.yaml:/空格}
       - {width: 10, click: "commit_.", long_click: "commit_>", swipe_up: "commit_>", key_text_size: *标点字号, __include: Q_配色.yaml:/句号}
       - {width: 13, click: Keyboard_default2, label: "\uE075", label_symbol: "\uE134", long_click: Color_settings, key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/句号}
       - {width: 15, click: Return, label: enter_labels, long_click: Menu, label_symbol: "\uE144", key_text_size: 17, __include: Q_配色.yaml:/回车}
