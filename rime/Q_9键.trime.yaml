@@ -563,7 +563,7 @@ preset_keyboards:
       - {width: 21, click: '.', label: '️ 。', long_click: commit_period, swipe_up: '<>{Left}', label_symbol: '《》', swipe_down: '^', hint: '……', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符2}
       - {click: 4, label: GHI, label_symbol: "4", swipe_down: cut, hint: '剪切', __include: Q_配色.yaml:/4, swipe_left: 'g', swipe_up: 'h', swipe_right: 'i', key_text_size: 20, popup: [commit_4_focused, commit_G, commit_H, commit_I, commit_g, commit_h, commit_i]}
       - {click: 5, label: JKL, label_symbol: "5", swipe_down: Clear, hint: '清空', __include: Q_配色.yaml:/5, swipe_left: 'j', swipe_up: 'k', swipe_right: 'l', key_text_size: 20, popup: [commit_J, commit_K, commit_L, commit_5_focused, commit_j, commit_k, commit_l]}
-      - {click: 6, label: MNO, label_symbol: "6", swipe_down: paste_clip_enter, hint: "粘贴↩", __include: Q_配色.yaml:/6, swipe_left: 'm', swipe_up: 'n', swipe_right: 'o', key_text_size: 20, popup: [commit_M, commit_N, commit_O, commit_m, commit_n, commit_o, commit_6_focused]}
+      - {click: 6, label: MNO, label_symbol: "6", swipe_down: paste_clip_enter, hint: "粘贴\uE034", __include: Q_配色.yaml:/6, swipe_left: 'm', swipe_up: 'n', swipe_right: 'o', key_text_size: 20, popup: [commit_M, commit_N, commit_O, commit_m, commit_n, commit_o, commit_6_focused]}
       - {width: 16, click: 0, label: 0, long_click: commit_colon, swipe_up: ':', label_symbol: '：', swipe_down: ';', hint: '；', key_text_size: *标点字号, __include: Q_配色.yaml:/数字空格}
 # 第三行
       - {width: 21, click: '?', label: ' ？', swipe_up: '(){Left}', label_symbol: '（）', swipe_down: '/', hint: '/', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符3}
@@ -610,7 +610,7 @@ preset_keyboards:
       - {width: 8, click: '.', label: '️ 。', long_click: commit_period, swipe_up: '<>{Left}', label_symbol: '《》', swipe_down: '^', hint: '……', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符2}
       - {click: 4, label: GHI, label_symbol: "4", swipe_down: cut, hint: '剪切', __include: Q_配色.yaml:/4, swipe_left: 'g', swipe_up: 'h', swipe_right: 'i', key_text_size: 20, popup: [commit_4, commit_G, commit_H, commit_I, commit_g, commit_h, commit_i]}
       - {click: 5, label: JKL, label_symbol: "5", swipe_down: Clear, hint: '清空', __include: Q_配色.yaml:/5, swipe_left: 'j', swipe_up: 'k', swipe_right: 'l', key_text_size: 20, popup: [commit_J, commit_K, commit_L, commit_5, commit_j, commit_k, commit_l]}
-      - {click: 6, label: MNO, label_symbol: "6", swipe_down: paste_clip_enter, hint: "粘贴↩", __include: Q_配色.yaml:/6, swipe_left: 'm', swipe_up: 'n', swipe_right: 'o', key_text_size: 20, popup: [commit_M, commit_N, commit_O, commit_m, commit_n, commit_o, commit_6]}
+      - {click: 6, label: MNO, label_symbol: "6", swipe_down: paste_clip_enter, hint: "粘贴\uE034", __include: Q_配色.yaml:/6, swipe_left: 'm', swipe_up: 'n', swipe_right: 'o', key_text_size: 20, popup: [commit_M, commit_N, commit_O, commit_m, commit_n, commit_o, commit_6]}
       - {width: 8, click: 0, label: 0, long_click: commit_colon, swipe_up: ':', label_symbol: '：', swipe_down: ';', hint: '；', key_text_size: *标点字号, __include: Q_配色.yaml:/数字空格}
       - {width: 27}
 # 第三行
