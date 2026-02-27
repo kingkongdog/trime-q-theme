@@ -649,16 +649,16 @@ preset_keyboards:
     keys:
       - {width: 100, height: 2}
 # 第 0 行
-      - {click: 1, height: 50, __include: Q_配色.yaml:/1}
-      - {click: 2, __include: Q_配色.yaml:/2}
-      - {click: 3, __include: Q_配色.yaml:/3}
-      - {click: 4, __include: Q_配色.yaml:/4}
-      - {click: 5, __include: Q_配色.yaml:/5}
-      - {click: 6, __include: Q_配色.yaml:/6}
-      - {click: 7, __include: Q_配色.yaml:/7}
-      - {click: 8, __include: Q_配色.yaml:/8}
-      - {click: 9, __include: Q_配色.yaml:/9}
-      - {click: 0, __include: Q_配色.yaml:/0}
+      - {click: commit_1_focused, height: 50, __include: Q_配色.yaml:/1}
+      - {click: commit_2_focused, __include: Q_配色.yaml:/2}
+      - {click: commit_3_focused, __include: Q_配色.yaml:/3}
+      - {click: commit_4_focused, __include: Q_配色.yaml:/4}
+      - {click: commit_5_focused, __include: Q_配色.yaml:/5}
+      - {click: commit_6_focused, __include: Q_配色.yaml:/6}
+      - {click: commit_7_focused, __include: Q_配色.yaml:/7}
+      - {click: commit_8_focused, __include: Q_配色.yaml:/8}
+      - {click: commit_9_focused, __include: Q_配色.yaml:/9}
+      - {click: commit_0_focused, __include: Q_配色.yaml:/0}
 # 第一行
       - {click: q, long_click: '~', swipe_up: '~', swipe_down: '!', hint: '!', __include: Q_配色.yaml:/q}
       - {click: w, long_click: '@', swipe_up: '@', swipe_down: '`', hint: '`', __include: Q_配色.yaml:/w}
@@ -672,22 +672,22 @@ preset_keyboards:
       - {click: p, long_click: ']', swipe_up: ']', swipe_down: ')', hint: ')', __include: Q_配色.yaml:/p}
 # 第二行
       - {width: 5}
-      - {click: a, long_click: select_all, swipe_up: select_all, swipe_down: Clear, __include: Q_配色.yaml:/a}
-      - {click: s, long_click: select_H, swipe_up: select_H, swipe_down: DelH, __include: Q_配色.yaml:/s}
+      - {click: a, __include: Q_配色.yaml:/a}
+      - {click: s, __include: Q_配色.yaml:/s}
       - {click: d, long_click: '|', swipe_up: '|', __include: Q_配色.yaml:/d}
       - {click: f, long_click: '\', swipe_up: '\', __include: Q_配色.yaml:/f}
-      - {click: g, long_click: liquid_keyboard_emoji, swipe_up: liquid_keyboard_emoji, __include: Q_配色.yaml:/g}
-      - {click: h, long_click: Keyboard_theme_editor, swipe_up: Keyboard_theme_editor, __include: Q_配色.yaml:/h}
-      - {click: j, long_click: Clipboard_window, swipe_up: Clipboard_window, swipe_down: "\n", __include: Q_配色.yaml:/j}
-      - {click: k, long_click: ':', swipe_up: ':', swipe_down: Symbol_switch, __include: Q_配色.yaml:/k}
-      - {click: l, long_click: ';', swipe_up: ';', swipe_down: Hint_switch, __include: Q_配色.yaml:/l}
+      - {click: g, __include: Q_配色.yaml:/g}
+      - {click: h, __include: Q_配色.yaml:/h}
+      - {click: j, __include: Q_配色.yaml:/j}
+      - {click: k, long_click: ':', swipe_up: ':', __include: Q_配色.yaml:/k}
+      - {click: l, long_click: ';', swipe_up: ';', __include: Q_配色.yaml:/l}
       - {width: 5}
 # 第三行
       - {width: 15, click: Shift_L, long_click: Shift_L, double_click: Shift_L3, label_symbol: ' ', composing: Escape, swipe_up: Tab, key_text_size: 24, __include: Q_配色.yaml:/功能}
       - {click: z, long_click: '?', swipe_up: '?', __include: Q_配色.yaml:/z}
-      - {click: x, long_click: cut, swipe_up: cut, __include: Q_配色.yaml:/x}
-      - {click: c, long_click: copy, swipe_up: copy, __include: Q_配色.yaml:/c}
-      - {click: v, long_click: paste_clip, swipe_up: paste_clip, __include: Q_配色.yaml:/v}
+      - {click: x, __include: Q_配色.yaml:/x}
+      - {click: c, __include: Q_配色.yaml:/c}
+      - {click: v, __include: Q_配色.yaml:/v}
       - {click: b, long_click: '"', swipe_up: '"', swipe_down: Color_settings, __include: Q_配色.yaml:/b}
       - {click: n, long_click: "'", swipe_up: "'", swipe_down: Theme_settings, __include: Q_配色.yaml:/n}
       - {click: m, long_click: '/', swipe_up: '/', swipe_down: Menu, __include: Q_配色.yaml:/m}
