@@ -411,6 +411,32 @@ preset_keys:
   # :
   commit_colon: {commit: ':'}
 
+  # 键盘上的标点符号按键重新定义，否则 shift 按下时将变成另外一个键
+  commit_`: {label: "`", commit: "`"}
+  commit_-: {label: "-", commit: "-"}
+  commit_=: {label: "=", commit: "="}
+  commit_[: {label: "[", commit: "["}
+  commit_]: {label: "]", commit: "]"}
+  commit_\: {label: "\\", commit: "\\"}
+  commit_;: {label: ";", commit: ";"}
+  commit_': {label: "'", commit: "'"}
+  commit_,: {label: ",", commit: ","}
+  commit_.: {label: ".", commit: "."}
+  commit_/: {label: "/", commit: "/"}
+
+  commit_~: {label: "~", commit: "~"}
+  commit__: {label: "_", commit: "_"}
+  commit_+: {label: "+", commit: "+"}
+  commit_{: {label: "{", commit: "{"}
+  commit_}: {label: "}", commit: "}"}
+  commit_|: {label: "|", commit: "|"}
+  commit_:: {label: ":", commit: ":"}
+  commit_": {label: "\"", commit: "\""}
+  commit_<: {label: "<", commit: "<"}
+  commit_>: {label: ">", commit: ">"}
+  commit_?: {label: "?", commit: "?"}
+
+
 # 状态栏工具
 tool_bar:
   button_spacing: 0 #按钮间距
@@ -660,43 +686,45 @@ preset_keyboards:
       - {click: commit_9_focused, __include: Q_配色.yaml:/9}
       - {click: commit_0_focused, __include: Q_配色.yaml:/0}
 # 第一行
-      - {click: q, long_click: '~', swipe_up: '~', swipe_down: '!', hint: '!', __include: Q_配色.yaml:/q}
-      - {click: w, long_click: '@', swipe_up: '@', swipe_down: '`', hint: '`', __include: Q_配色.yaml:/w}
-      - {click: e, long_click: '_', swipe_up: '_', swipe_down: '#', hint: '#', __include: Q_配色.yaml:/e}
-      - {click: r, long_click: '-', swipe_up: '-', swipe_down: '$', hint: '$', __include: Q_配色.yaml:/r}
-      - {click: t, long_click: '+', swipe_up: '+', swipe_down: '%', hint: '%', __include: Q_配色.yaml:/t}
-      - {click: y, long_click: '=', swipe_up: '=', swipe_down: '^', hint: '^', __include: Q_配色.yaml:/y}
-      - {click: u, long_click: '{', swipe_up: '{', swipe_down: '&', hint: '&', __include: Q_配色.yaml:/u}
-      - {click: i, long_click: '}', swipe_up: '}', swipe_down: '*', hint: '*', __include: Q_配色.yaml:/i}
-      - {click: o, long_click: '[', swipe_up: '[', swipe_down: '(', hint: '(', __include: Q_配色.yaml:/o}
-      - {click: p, long_click: ']', swipe_up: ']', swipe_down: ')', hint: ')', __include: Q_配色.yaml:/p}
+      - {click: q, long_click: "!", swipe_up: "!", __include: Q_配色.yaml:/q}
+      - {click: w, long_click: "@", swipe_up: "@", __include: Q_配色.yaml:/w}
+      - {click: e, long_click: "#", swipe_up: "#", __include: Q_配色.yaml:/e}
+      - {click: r, long_click: "$", swipe_up: "$", __include: Q_配色.yaml:/r}
+      - {click: t, long_click: "%", swipe_up: "%", __include: Q_配色.yaml:/t}
+      - {click: y, long_click: "^", swipe_up: "^", __include: Q_配色.yaml:/y}
+      - {click: u, long_click: "&", swipe_up: "&", __include: Q_配色.yaml:/u}
+      - {click: i, long_click: "*", swipe_up: "*", __include: Q_配色.yaml:/i}
+      - {click: o, long_click: "(", swipe_up: "(", __include: Q_配色.yaml:/o}
+      - {click: p, long_click: ")", swipe_up: ")", __include: Q_配色.yaml:/p}
 # 第二行
       - {width: 5}
-      - {click: a, __include: Q_配色.yaml:/a}
-      - {click: s, __include: Q_配色.yaml:/s}
-      - {click: d, long_click: '|', swipe_up: '|', __include: Q_配色.yaml:/d}
-      - {click: f, long_click: '\', swipe_up: '\', __include: Q_配色.yaml:/f}
-      - {click: g, __include: Q_配色.yaml:/g}
-      - {click: h, __include: Q_配色.yaml:/h}
-      - {click: j, __include: Q_配色.yaml:/j}
-      - {click: k, long_click: ':', swipe_up: ':', __include: Q_配色.yaml:/k}
-      - {click: l, long_click: ';', swipe_up: ';', __include: Q_配色.yaml:/l}
+      - {click: a, long_click: "commit_~", swipe_up: "commit_~", __include: Q_配色.yaml:/a}
+      - {click: s, long_click: "commit__", swipe_up: "commit__", __include: Q_配色.yaml:/s}
+      - {click: d, long_click: "commit_+", swipe_up: "commit_+", __include: Q_配色.yaml:/d}
+      - {click: f, long_click: "commit_{", swipe_up: "commit_{", __include: Q_配色.yaml:/f}
+      - {click: g, long_click: "commit_}", swipe_up: "commit_}", __include: Q_配色.yaml:/g}
+      - {click: h, long_click: "commit_|", swipe_up: "commit_|", __include: Q_配色.yaml:/h}
+      - {click: j, long_click: "commit_:", swipe_up: "commit_:", __include: Q_配色.yaml:/j}
+      - {click: k, long_click: "commit_\"", swipe_up: "commit_\"", __include: Q_配色.yaml:/k}
+      - {click: l, long_click: "commit_?", swipe_up: "commit_?", __include: Q_配色.yaml:/l}
       - {width: 5}
 # 第三行
-      - {width: 15, click: Shift_L, long_click: Shift_L, double_click: Shift_L3, label_symbol: ' ', composing: Escape, swipe_up: Tab, key_text_size: 24, __include: Q_配色.yaml:/功能}
-      - {click: z, long_click: '?', swipe_up: '?', __include: Q_配色.yaml:/z}
-      - {click: x, __include: Q_配色.yaml:/x}
-      - {click: c, __include: Q_配色.yaml:/c}
-      - {click: v, __include: Q_配色.yaml:/v}
-      - {click: b, long_click: '"', swipe_up: '"', swipe_down: Color_settings, __include: Q_配色.yaml:/b}
-      - {click: n, long_click: "'", swipe_up: "'", swipe_down: Theme_settings, __include: Q_配色.yaml:/n}
-      - {click: m, long_click: '/', swipe_up: '/', swipe_down: Menu, __include: Q_配色.yaml:/m}
-      - {width: 15, click: BackSpace2, swipe_up: Clear, label_symbol: "清空", swipe_left: Escape, swipe_down: Delete, key_text_size: 21, __include: Q_配色.yaml:/退格}
+      - {width: 15, click: Shift_L, long_click: Shift_L, double_click: Shift_L3, composing: Escape, swipe_up: "commit_`", label_symbol: '`', key_text_size: 24, __include: Q_配色.yaml:/功能}
+      - {click: z, long_click: "commit_-", swipe_up: "commit_-", __include: Q_配色.yaml:/z}
+      - {click: x, long_click: "commit_=", swipe_up: "commit_=", __include: Q_配色.yaml:/x}
+      - {click: c, long_click: "commit_[", swipe_up: "commit_[", __include: Q_配色.yaml:/c}
+      - {click: v, long_click: "commit_]", swipe_up: "commit_]", __include: Q_配色.yaml:/v}
+      - {click: b, long_click: "commit_\\", swipe_up: "commit_\\", __include: Q_配色.yaml:/b}
+      - {click: n, long_click: "commit_;", swipe_up: "commit_;", __include: Q_配色.yaml:/n}
+      - {click: m, long_click: "commit_'", swipe_up: "commit_'", __include: Q_配色.yaml:/m}
+      - {width: 15, click: BackSpace2, swipe_down: Clear, hint: "清空", long_click: "commit_/", swipe_up: "commit_/", key_text_size: 21, __include: Q_配色.yaml:/退格}
 # 第四行
       - {width: 16, click: Keyboard_number2, long_click: liquid_keyboard_en, label_symbol: ' ', key_text_size: 18, __include: Q_配色.yaml:/数字}
+      - {width: 14, click: liquid_keyboard_en, label: 符, key_text_size: 17, __include: Q_配色.yaml:/数字逗号}
+      - {width: 13, click: "commit_,", long_click: "commit_<", swipe_up: "commit_<", key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
       - {width: 42, click: space, long_click: VOICE_ASSIST, swipe_left: Left, swipe_right: Right, key_text_size: 17, __include: Q_配色.yaml:/空格}
-      - {width: 13, click: '.', label: ' 。', label_symbol: "\uE102", long_click: Theme_settings, swipe_up: ',', key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
-      - {width: 13, click: Keyboard_default2, label: "\uE075", label_symbol: "\uE134", long_click: Color_settings, swipe_up: '!', key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/句号}
+      - {width: 13, click: "commit_.", long_click: "commit_>", swipe_up: "commit_>", key_text_size: *标点字号, __include: Q_配色.yaml:/句号}
+      - {width: 13, click: Keyboard_default2, label: "\uE075", label_symbol: "\uE134", long_click: Color_settings, key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/句号}
       - {width: 16, click: Return, label: enter_labels, long_click: Menu, label_symbol: "\uE144", key_text_size: 17, __include: Q_配色.yaml:/回车}
 
 # 数字键盘
