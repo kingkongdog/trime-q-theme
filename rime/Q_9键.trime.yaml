@@ -599,7 +599,7 @@ preset_keyboards:
       - {width: 16, click: Shift_L2, long_click: Shift_L2, label: '️Shift', swipe_up: "@", label_symbol: '@', swipe_down: "\n", hint: "\uE031", swipe_left: Escape, composing: Escape, key_text_size: *标点字号, __include: Q_配色.yaml:/数字编辑}
 # 第四行
       - {width: 21, click: '!', label: '️!', long_click: Theme_settings, hint: "\uE102", swipe_up: "%", label_symbol: "%", key_text_size: 18, __include: Q_配色.yaml:/数字返回, key_hint_offset_y: -5}
-      - {width: 14, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Color_settings, hint: "\uE134", key_text_size: 17, __include: Q_配色.yaml:/数字逗号, key_hint_offset_y: -5}
+      - {width: 14, click: liquid_keyboard_cn, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Color_settings, hint: "\uE134", key_text_size: 17, __include: Q_配色.yaml:/数字逗号, key_hint_offset_y: -5}
       - {width: 35, click: space, label: 中文之韵, long_click: VOICE_ASSIST, popup: [commit_0_focused], label_symbol: '0', swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, __include: Q_配色.yaml:/空格, composing: space_composing_0}
       - {width: 14, click: Keyboard_letter, label: "\uE074", long_click: Keyboard_landscape, swipe_up: End, label_symbol: "\uE0B5", key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/数字句号}
       - {width: 16, click: Return, long_click: Menu, label_symbol: " ", hint: "\uE144", key_text_size: 17, __include: Q_配色.yaml:/数字回车, key_hint_offset_y: -5}
@@ -650,7 +650,7 @@ preset_keyboards:
 # 第四行
       - {width: 27}
       - {width: 8, click: '!', label: '️!', long_click: Theme_settings, hint: "\uE102", swipe_up: "%", label_symbol: "%", key_text_size: 18, __include: Q_配色.yaml:/数字返回, key_hint_offset_y: -5}
-      - {width: 8, click: liquid_keyboard_en, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Color_settings, hint: "\uE134", key_text_size: 17, __include: Q_配色.yaml:/数字逗号, key_hint_offset_y: -5}
+      - {width: 8, click: liquid_keyboard_cn, label: 符, swipe_up: Home, label_symbol: "\uE0A5", swipe_left: set_theme, long_click: Color_settings, hint: "\uE134", key_text_size: 17, __include: Q_配色.yaml:/数字逗号, key_hint_offset_y: -5}
       - {width: 14, click: space, label: 中文之韵, long_click: VOICE_ASSIST, popup: [commit_0_focused], label_symbol: '0', swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, __include: Q_配色.yaml:/空格, composing: space_composing_0}
       - {width: 8, click: Keyboard_default2, label: "\uE101", swipe_up: End, label_symbol: "\uE0B5", key_text_size: 30, __include: Q_配色.yaml:/数字句号}
       - {width: 8, click: Return, long_click: Menu, label_symbol: " ", hint: "\uE144", key_text_size: 17, __include: Q_配色.yaml:/数字回车, key_hint_offset_y: -5}
