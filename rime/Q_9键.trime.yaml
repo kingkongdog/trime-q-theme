@@ -724,8 +724,8 @@ preset_keyboards:
       - {width: 10, click: "commit_,", long_click: "commit_<", swipe_up: "commit_<", key_text_size: *标点字号, __include: Q_配色.yaml:/逗号}
       - {width: 24, click: space, label: 好好吃饭, swipe_left: Left, swipe_right: Right, key_text_size: 17, __include: Q_配色.yaml:/空格}
       - {width: 10, click: "commit_.", long_click: "commit_>", swipe_up: "commit_>", key_text_size: *标点字号, __include: Q_配色.yaml:/句号}
-      - {width: 13, click: Keyboard_default2, label: "\uE075", label_symbol: "\uE134", long_click: Color_settings, key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/句号}
-      - {width: 15, click: Return, label: enter_labels, long_click: Menu, label_symbol: "\uE144", key_text_size: 17, __include: Q_配色.yaml:/回车}
+      - {width: 13, click: Keyboard_default2, label: "\uE075", key_text_size: 30, key_text_offset_y: -4, __include: Q_配色.yaml:/句号}
+      - {width: 15, click: Return, label: enter_labels, key_text_size: 17, __include: Q_配色.yaml:/回车}
 
 # 数字键盘
   number:
