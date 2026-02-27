@@ -269,7 +269,7 @@ preset_keys:
   paste: {label: 貼上, send: Control+v}
   paste_text: {label: 貼上文本, send: Control+Shift+Alt+v} #>=Android 6.0
   paste_clip: {label: ▣, send: function, command: clipboard}
-  paste_clip_enter: {text: "{clipboard}{Return}"}
+  paste_clip_enter: {text: "{Control+v}{Return}"}
   share_text: {label: 分享文本, send: Control+Alt+s} #>=Android 6.0
   undo: {label: 撤销, repeatable: true, send: Control+z} #>=Android 6.0
   redo: {label: 重做, repeatable: true, send: Control+Shift+z} #>=Android 6.0
