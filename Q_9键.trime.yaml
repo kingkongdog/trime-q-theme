@@ -577,20 +577,8 @@ preset_keyboards:
     key_press_offset_y: *按下偏移y
     # columns: 8 #列数，超出则换行
     # auto_height_index: -1 #吸收缩放后的余数，数值为该键盘行号，1（首行）至≥最大行号（末行），负数则倒数。
-    keyboard_height: 310
     keys:
       - {width: 100, height: *九键顶行高}
-      # 第 0 行
-      - {width: 10, click: ā, height: 50, __include: Q_配色.yaml:/1}
-      - {width: 10, click: ō, __include: Q_配色.yaml:/2}
-      - {width: 10, click: ē, __include: Q_配色.yaml:/3}
-      - {width: 10, click: ī, __include: Q_配色.yaml:/4}
-      - {width: 10, click: ū, __include: Q_配色.yaml:/5}
-      - {width: 10, click: ǖ, __include: Q_配色.yaml:/6}
-      - {width: 10, click: ①, __include: Q_配色.yaml:/7}
-      - {width: 10, click: ②, __include: Q_配色.yaml:/8}
-      - {width: 10, click: ③, __include: Q_配色.yaml:/9}
-      - {width: 10, click: ④, __include: Q_配色.yaml:/0}
 # 第一行
       - {width: 21, click: ',', label: '️ ，️', long_click: commit_comma, swipe_up: "\"\"{Left}", label_symbol: '“”', swipe_down: "\\", hint: '、', key_text_size: *标点字号, __include: Q_配色.yaml:/数字符1}
       - {click: 1, label: "'⤴︎⬆︎", label_symbol: "1", swipe_up: "'", swipe_down: select_all, hint: '全选', __include: Q_配色.yaml:/1, key_text_size: 20, popup: [commit_1_focused]}
