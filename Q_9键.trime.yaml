@@ -568,7 +568,7 @@ preset_keyboards:
     reset_ascii_mode: true
     label_transform: none # 中文时字母大写显示：uppercase 小写：none
     ascii_keyboard: letter #指定英文模式键盘
-    width: 21
+    # width: 21
     height: *九键行高
     key_symbol_offset_x: *上符x
     key_symbol_offset_y: *上符y
