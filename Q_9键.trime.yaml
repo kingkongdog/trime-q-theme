@@ -121,6 +121,8 @@ window:
 # 预编辑（状态栏编码区）文本视图参数
 preedit:
   horizontal_padding: 11 #横向内边距（整数）
+  padding_top: 2
+  padding_bottom: 0
   alpha: 1 #不透明度（0-1，浮点）
   top_end_radius: 10 #右上方圆角（浮点）
   foreground: #前景样式
