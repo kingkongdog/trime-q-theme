@@ -124,7 +124,7 @@ preedit:
   alpha: 1 #不透明度（0-1，浮点）
   top_end_radius: 10 #右上方圆角（浮点）
   foreground: #前景样式
-    font_size: 20 #字号（浮点）
+    font_size: 16 #字号（浮点）
 
 
 # 后备配色
