@@ -2889,3 +2889,59 @@ preset_color_schemes:
     常态背景高亮: Q/渐变  •  深色/gnh.9.png #锁定背景高亮
     常态字色: 0xBBC4CD #常态字高亮、常态符色、常态符高亮
     锁定字色: 0xF55D60 #锁定字高亮
+
+  aurora_chrome:
+    name: 极光铬
+    dark_scheme: aurora_chrome_dark
+# 🟠 背景：
+    状态栏首选（高亮标注项）+非首选高亮: 0x00
+    气泡高亮: 0xD5FFF0
+    键盘(状态栏+底栏): 0xE7F1EE
+    状态栏: 0xD8E7E2
+    悬浮窗^: 0xF7FBF9
+    按键: 0xF7FBF9
+    按键高亮: 0xBCE8D6
+    功能风: 0xD1E4DE
+    功能风高亮: 0xA9D7C5
+    空格: 0xE2EFEB
+    空格高亮: 0xBCE8D6
+    回车: 0x1D5148
+    回车高亮: 0x2D7567
+# 🟠 字色：
+    首选（高亮标注项）: 0x0B6B5B
+    非首选: 0x42615A
+    按键字色: 0x173B36
+    回车字色: 0xF2FFFA
+# 🟠 Shift键：
+    常态背景: 0x2D7567
+    常态背景高亮: 0x398F7D
+    常态字色: 0xF2FFFA
+    锁定字色: 0xFF765C
+
+  aurora_chrome_dark:
+    name: 极光铬  •  深色
+    light_scheme: aurora_chrome
+# 🟠 背景：
+    状态栏首选（高亮标注项）+非首选高亮: 0x00
+    气泡高亮: 0x173B36
+    键盘(状态栏+底栏): 0x101B1A
+    状态栏: 0x142624
+    悬浮窗^: 0x1B302D
+    按键: 0x1D3733
+    按键高亮: 0x28564B
+    功能风: 0x213F3A
+    功能风高亮: 0x326A5C
+    空格: 0x213F3A
+    空格高亮: 0x326A5C
+    回车: 0x8DE3C2
+    回车高亮: 0xB0F5D8
+# 🟠 字色：
+    首选（高亮标注项）: 0x8DE3C2
+    非首选: 0xA6C5BA
+    按键字色: 0xE5FFF4
+    回车字色: 0x102521
+# 🟠 Shift键：
+    常态背景: 0x28564B
+    常态背景高亮: 0x397A68
+    常态字色: 0xE5FFF4
+    锁定字色: 0xFF927B
