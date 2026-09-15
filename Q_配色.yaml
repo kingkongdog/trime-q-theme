@@ -2901,6 +2901,8 @@ preset_color_schemes:
     按键高亮: 0xBCE8D6
     功能风: 0xD1E4DE
     功能风高亮: 0xA9D7C5
+    数字返回: 0xD1E4DE
+    数字返回高亮: 0xA9D7C5
     空格: 0xE2EFEB
     空格高亮: 0xBCE8D6
     回车: 0x1D5148
