@@ -2905,11 +2905,11 @@ preset_color_schemes:
     数字返回高亮: 0xA9D7C5
     数字退格: 0xD1E4DE
     数字退格高亮: 0xA9D7C5
-    数字逗号: 0xD1E4DE
+    数字逗号: 0xE2EFEB
     数字逗号高亮: 0xA9D7C5
-    数字句号: 0xD1E4DE
+    数字句号: 0xE2EFEB
     数字句号高亮: 0xA9D7C5
-    数字回车: 0xD1E4DE
+    数字回车: 0xE2EFEB
     数字回车高亮: 0xA9D7C5
     空格: 0xE2EFEB
     空格高亮: 0xBCE8D6
