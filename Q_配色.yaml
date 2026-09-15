@@ -2899,17 +2899,21 @@ preset_color_schemes:
     悬浮窗^: 0xF7FBF9
     按键: 0xF7FBF9
     按键高亮: 0xBCE8D6
-    功能风: 0xD1E4DE
-    功能风高亮: 0xA9D7C5
+    功能风: 0xE7F1EE
+    功能风高亮: 0xBCE8D6
+    数字: 0xE7F1EE
+    数字高亮: 0xBCE8D6
+    退格: 0xE7F1EE
+    退格高亮: 0xBCE8D6
     空格: 0xE2EFEB
     空格高亮: 0xBCE8D6
-    回车: 0x1D5148
-    回车高亮: 0x2D7567
+    回车: 0x79B9AA
+    回车高亮: 0x91CDBD
     # 🟠 字色：
     首选（高亮标注项）: 0x0B6B5B
     非首选: 0x42615A
     按键字色: 0x102A26
-    回车字色: 0xF2FFFA
+    回车字色: 0x102A26
     # 🟠 Shift键：
     常态背景: 0x2D7567
     常态背景高亮: 0x398F7D
