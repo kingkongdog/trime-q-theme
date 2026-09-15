@@ -2908,12 +2908,12 @@ preset_color_schemes:
     # 🟠 字色：
     首选（高亮标注项）: 0x0B6B5B
     非首选: 0x42615A
-    按键字色: 0x173B36
+    按键字色: 0x102A26
     回车字色: 0xF2FFFA
     # 🟠 Shift键：
     常态背景: 0x2D7567
     常态背景高亮: 0x398F7D
-    常态字色: 0xF2FFFA
+    常态字色: 0x102A26
     锁定字色: 0xFF765C
 
   aurora_chrome_dark:
