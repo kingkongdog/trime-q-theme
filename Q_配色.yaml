@@ -2907,6 +2907,12 @@ preset_color_schemes:
     功能字高亮: 0x102A26
     功能符色: 0x102A26
     功能符高亮: 0x102A26
+    数字符1: 0xBCE8D6
+    数字符1高亮: 0xA9D7C5
+    数字符2: 0xBCE8D6
+    数字符2高亮: 0xA9D7C5
+    数字符3: 0xBCE8D6
+    数字符3高亮: 0xA9D7C5
     数字: 0xBCE8D6
     数字高亮: 0xA9D7C5
     数字字色: 0x102A26
@@ -2915,8 +2921,12 @@ preset_color_schemes:
     数字符高亮: 0x102A26
     数字返回: 0xBCE8D6
     数字返回高亮: 0xA9D7C5
-    数字退格: 0xD1E4DE
+    数字退格: 0xBCE8D6
     数字退格高亮: 0xA9D7C5
+    数字编辑: 0xBCE8D6
+    数字编辑高亮: 0xA9D7C5
+    数字空格: 0xBCE8D6
+    数字空格高亮: 0xA9D7C5
     退格: 0xBCE8D6
     退格高亮: 0xA9D7C5
     退格字色: 0x102A26
@@ -2949,8 +2959,8 @@ preset_color_schemes:
     数字回车字高亮: 0x102A26
     数字回车符色: 0x102A26
     数字回车符高亮: 0x102A26
-    空格: 0xE2EFEB
-    空格高亮: 0xBCE8D6
+    空格: 0xBCE8D6
+    空格高亮: 0xA9D7C5
     回车: 0xBCE8D6
     回车高亮: 0xA9D7C5
     # 🟠 字色：
